@@ -1,4 +1,4 @@
-# Mean Field Adversarial Inverse Reinforcement Learning
+# Adversarial Inverse Reinforcement Learning for Mean Field Games
 
 ## Table of Contents
 
@@ -7,7 +7,7 @@
 - [Usage](#usage)
 
 ## Background
-This project is the code implementation for the paper ***ean Field Adversarial Inverse Reinforcement Learning***.There are two packages: ```MADDPG4MFG``` and ```MFIRL```. ```MADDPG4MFG``` implements the forward reinforcement learning for mean field agent that computes a mean field equilibrium. ```MFIRL``` implements the agent-level inverse reinforcement learning for mean field games that learns a reward function given demonstrations sampled from the mean field equilibrium by ```MADDPG4MFG```. Two simulated environments are implemented: *malware spread* and *investment in product quality*.
+This project is the code implementation for the paper ***Adversarial Inverse Reinforcement Learning for Mean Field Games***.There are two packages: ```MADDPG4MFG``` and ```MFIRL```. ```MADDPG4MFG``` implements the forward reinforcement learning for mean field agent that computes a mean field equilibrium. ```MFIRL``` implements the agent-level inverse reinforcement learning for mean field games that learns a reward function given demonstrations sampled from the mean field equilibrium by ```MADDPG4MFG```. Two simulated environments are implemented: *malware spread* and *investment in product quality*.
 
 ## Install
 This project uses [Python](https://www.python.org/downloads/release/python-383/) 3.8.3, [Gym](http://gym.openai.com)  0.17.2, [PyTorch](https://pytorch.org) 1.5.0, and [NumPy](https://numpy.org)  1.18.1.
